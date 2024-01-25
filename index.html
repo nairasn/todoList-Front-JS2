@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/621858e735.js" crossorigin="anonymous"></script>
+    <title>To Do List</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="todo-app">
+            <h2><img src="./todo.png" alt="">Lista de Tarefas</h2>
+            <div class="row">
+                <input type="text" class="add-task" id="adicionar" placeholder="Adicione sua tarefa" autofocus>
+                <button id="btn">Adicionar</button>
+            </div>
+
+            <ul id="listaPendente">
+                <h1 id="nopendingtxt">♥ Tarefas Pendentes:</h1>
+            </ul>
+
+            <ul id="listaCompleta">
+                <h1 id="completetxt">♥ Tarefas Concluídas:</h1>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+
+</html>

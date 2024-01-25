@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* container  */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #7B362E;
+    padding: 10px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 700px;
+    background-color: #DFC8C2;
+    border: 2px solid #AF684A;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px;
+}
+
+.todo-app h2 {
+    display: flex;
+    color: #7B362E;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    /* font-family: 'Dancing Script', cursive; */
+}
+
+.todo-app h2 img{
+    width: 45px;
+    margin-left: 10px;
+}
+
+/* input e button */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #AF684A;
+    color: #F8F6DD;
+    font-style: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Lista de Tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+ul h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DFC8C2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: #F8F6DD;
+}
+
+/* ícones */
+.fa-solid {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-solid:hover {
+    color: #7B362E;
+}
+
+i {
+    color: #B48E7B;
+}
